@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  list-style: none;
   text-decoration: none;
   border: none;
   outline: none;
@@ -211,6 +210,10 @@ header .blue-btn {
   color: #333;
   margin-bottom: 254px;
 }
+.hero .blue-btn {
+  width: 362px;
+}
+
 .hero-mg {
   max-height: calc(100vh - 120px);
 }
@@ -933,4 +936,118 @@ footer .footer-seti a {
   line-height: 95%;
   letter-spacing: -0.04em;
   color: #fff;
+}
+
+.blog-page {
+  margin-top: 240px;
+}
+.blog-page footer {
+  margin-top: 300px;
+}
+.blog-page .blog-head {
+  font-weight: 500;
+  margin-bottom: 78px;
+  font-size: 96px;
+  line-height: 95%;
+  letter-spacing: -0.04em;
+  color: #333;
+}
+.blog-page .content .container {
+  padding-right: 634px;
+}
+.blog-page .content .container h1 {
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 95%;
+  letter-spacing: -0.04em;
+  color: #333;
+  margin-bottom: 40px;
+}
+.blog-page .content .container p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  letter-spacing: -0.04em;
+  color: #333;
+  margin-top: 20px;
+}
+.blog-page .content .container h2 {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 95%;
+  letter-spacing: -0.04em;
+  color: #333;
+  margin-top: 40px;
+}
+.blog-page .content .container ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: inside;
+}
+.blog-page .content .container ul li {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  letter-spacing: -0.04em;
+  color: #333;
+}
+.blog-page .nav {
+  position: absolute;
+  right: 200px;
+  top: 400px;
+  width: 490px;
+}
+.blog-page .menu {
+  background: #fff;
+  padding: 30px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 60px;
+}
+.blog-page .menu a {
+  border: 2px solid #1f5bff;
+  border-radius: 12px;
+  padding: 15px 30px;
+  width: -moz-fit-content;
+  width: fit-content;
+  background: #fff;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 110%;
+  letter-spacing: -0.04em;
+  color: #333;
+}
+.blog-page .menu-heading {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 95%;
+  letter-spacing: -0.04em;
+  color: #333;
+  margin-bottom: 30px;
+  width: 100%;
+}
+.blog-page .add {
+  background: rgba(31, 91, 255, 0.1);
+}
+.blog-page .add img {
+  width: 100%;
+}
+.blog-page .add-heading {
+  padding: 60px 30px 0 30px;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 95%;
+  letter-spacing: -0.04em;
+  color: #333;
+  margin-bottom: 60px;
+}
+.blog-page .add-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  letter-spacing: -0.04em;
+  color: #333;
+  padding: 60px 30px;
 }/*# sourceMappingURL=style.css.map */
